@@ -1,0 +1,28 @@
+{
+    "name": "PackingShip/birdpay",
+    "description": "Paymaya Service Container for Laravel",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "5.*",
+        "paymaya/paymaya-sdk": "*"
+    },
+    "author": {
+        "name": "Arki Val",
+        "email": "arvalencia@gbox.adnu.edu.ph"
+    },
+    "autoload": {
+        "psr-4": {
+            "PackingShip\\Birdpay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PackingShip\\Birdpay\\BirdpayServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
